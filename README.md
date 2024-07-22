@@ -12,31 +12,43 @@
 * [Project Developers](#project-developers)
 
 ## Project Description
-Project for a company that sells online courses for musical instruments, involving the creation of an online platform. The platform consists of a section for selecting instruments, videos, plans, and also adjacent pages fulfilling other functions on the website.
+Musicdot is a dynamic educational platform tailored for music enthusiasts. Developed using HTML, CSS, JavaScript, JQuery, and Bootstrap, Musicdot offers online courses for a variety of musical instruments, allowing users to learn at their own pace. The site features an engaging user interface that showcases different musical instruments through interactive cards and provides detailed information about course offerings and enrollment options.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 ## Features and Application Demonstration
-- `Feature 1`: Development of an enrollment page: When clicking on the "Matricule-se" button, you are redirected to the enrollment page. Using JavaScript, a page with course selection, including their names and durations, has been created. After selecting the desired courses, clicking on the "Confirmar matricula" button opens a modal window confirming that the enrollment has been completed and redirects you back to the main page.
-- `Feature 2`: Development of a contact page: Clicking on the "Contato" button redirects you to a page showing a bit about who the company is and a brief history, as well as its unique selling points, and, of course, the company's contact information for customers.
-- `Feature 3`: Visual of the pages created using Bootstrap and CSS.
-- `Feature 4`: Insertion of a short promotional and explanatory video on the main page with playback and controls directly on the page, without the need to be redirected to another site for playback.
+- **Interactive Course Catalog**: Displays a collection of cards representing different musical instruments. Hovering over each card changes its background color, providing a visual cue to users.
+- **Embedded YouTube Video**: Includes an informative video embedded directly on the page, giving prospective students a deeper insight into what Musicdot offers.
+- **Enrollment Options**: Presents two distinct enrollment plans in a visually appealing card format, each with a 'Sign Up' button for user convenience.
+- **Benefits Section**: Highlights four compelling reasons to enroll at Musicdot, each accompanied by descriptive text and relevant imagery.
+- **YouTube Channel CTA**: Directs users to Musicdot's YouTube channel with a call-to-action button and includes thumbnails linking to specific videos.
+- **Mobile App Information**: Describes the availability of the platform on Android and iOS devices, with download links for both.
+- **Footer Section**: Contains numerous links to courses, contact details, and social media platforms, along with a newsletter signup field for promotional emails (note: the signup functionality is visual only and not operational).
+- **Contact Page**: Dedicated page detailing the company's history, location, unique selling points, and multiple contact methods.
+- **Enrollment Page**: Features a dynamic list of courses with options to select multiple courses. The total number of selected courses and the cumulative duration are automatically updated based on user selections.
+- **Confirmation Modal**: Upon confirming course selections, a modal pops up to confirm the enrollment or to inform that no courses have been selected. Successful confirmations redirect users back to the main page.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Access
-Project requirements:
- - Have your preferred IDE installed on your computer.
 
-Access the project hosted [here](https://musicdot-seven.vercel.app) and have fun:
- - Project hosted on Vercel.
- - Easy implementation, [click](https://musicdot-seven.vercel.app) and enter the project, try it out easily and quickly without needing to download the files to your own computer.
+### Prerequisites
+- **Integrated Development Environment (IDE)**: While not mandatory for viewing the hosted version, having an IDE such as Visual Studio Code is recommended if you plan to modify or further develop the project locally.
 
-Have the code on your computer:
- - Access the project source code [here](https://github.com/victorhubarb/musicdot) or download the project [here](https://github.com/victorhubarb/musicdot/archive/refs/heads/main.zip). After one of these steps, and also unzip it on your computer in case of download, open the project in your preferred IDE.
+### Online Access
+- **Live Demo**: Experience Musicdot directly through its hosted version on Vercel:
+  - [Visit Musicdot](https://musicdot-seven.vercel.app) to explore the interactive features and courses available without any setup required.
 
-Clone repository with the following steps:
- 1. Open the terminal
- 2. git clone https://github.com/victorhubarb/musicdot.git
- 3. Press ENTER to create your clone
+### Local Setup
+- **Access and Download the Source Code**:
+  - Visit the [Musicdot GitHub repository](https://github.com/victorhubarb/musicdot) to view the source code.
+  - To download the project directly, [click here](https://github.com/victorhubarb/musicdot/archive/refs/heads/main.zip), unzip the file after download, and open it in your IDE.
+
+- **Clone the Repository**:
+  ```bash
+  # Open your terminal
+  git clone https://github.com/victorhubarb/musicdot.git
+  cd musicdot
+  
+  # Now you are ready to work on the project locally.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Technologies Used
